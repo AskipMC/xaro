@@ -1,0 +1,26 @@
+name: Arkadia
+version: '${project.version}'
+main: fr.matt.arkadia.Arkadia
+api-version: '1.20'
+
+commands:
+  t:
+    description: chat team
+  team:
+    description: manage a team
+    permission: team.admin
+  base :
+    description: teleport to base
+  setbase :
+    description: set base location
+  spawn:
+    description: teleport to spawn
+  classement:
+    description: manage a classement
+    permission: classement.admin
+  shop :
+    description: open shop inv
+  quest :
+    description: show personal stats of quests
+  money :
+     description: get the money amount
